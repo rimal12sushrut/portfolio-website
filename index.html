@@ -3,10 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sushrut Rimal - 3D Portfolio</title>
+    <title>Sushrut Rimal</title>
+    <!-- Favicon -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2220%22 fill=%22%236366F1%22></rect><text x=%2250%%22 y=%2250%%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 font-size=%2245%22 font-family=%22Inter, sans-serif%22 font-weight=%22bold%22 fill=%22white%22>SR</text></svg>">
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- Google AdSense -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6273920221474704"
+     crossorigin="anonymous"></script>
     <style>
         body {
             font-family: 'Inter', sans-serif;
@@ -56,7 +61,14 @@
     <header class="fixed top-0 left-0 right-0 z-10 bg-gray-900 bg-opacity-50 backdrop-blur-md">
         <div class="container mx-auto px-6 py-4">
             <div class="flex items-center justify-between">
-                <div class="text-2xl font-bold text-white">Sushrut Rimal</div>
+                <div class="flex items-center space-x-3">
+                    <!-- Logo -->
+                    <svg width="32" height="32" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="100" height="100" rx="20" fill="#6366F1"/>
+                        <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-size="45" font-family="Inter, sans-serif" font-weight="bold" fill="white">SR</text>
+                    </svg>
+                    <div class="text-2xl font-bold text-white">Sushrut Rimal</div>
+                </div>
                 <nav class="hidden md:flex space-x-8">
                     <a href="#about" class="text-gray-300 hover:text-white transition">About</a>
                     <a href="#skills" class="text-gray-300 hover:text-white transition">Skills</a>
